@@ -1,0 +1,36 @@
+* {
+  margin: 3px;
+}
+
+.header {
+  position: sticky;
+  background-color: lightgray;
+  /* margin: 10px; */
+  /* justify-content: space-between; */
+}
+
+.header p {
+  border: 2px solid rgb(39, 36, 33);
+  display: inline-block;
+  padding: 6px 20px;
+  font-size: 30px;
+  font-family: "Lemonada", cursive;
+  font-weight: bold;
+  color: rgb(170, 106, 22);
+  margin: 10px;
+  /* margin-left: 10px; */
+}
+
+.header a {
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: right;
+  color: rgb(110, 22, 22);
+}
+
+img {
+  width: 1245px;
+  height: 550px;
+}
