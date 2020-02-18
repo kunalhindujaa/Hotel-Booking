@@ -12,6 +12,7 @@ const Home = props => {
         <a href="#about">About Us</a>
       </div>
       <img src={beachImg} alt="Beach-Home-Page" />
+
       {/* <div style={{ position: "relative;" }}>
         Content of bottom div goes here.
       </div>

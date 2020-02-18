@@ -1,0 +1,43 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.services {
+  background-color: #cfcfcf;
+}
+
+.services .title {
+  text-align: center;
+  padding: 15px;
+  color: rgb(112, 83, 4);
+}
+
+/* .services span {
+  
+} */
+
+.data {
+  /* width: 550px; */
+  display: flex;
+  text-align: center;
+  margin: 10px;
+  padding: 10px 30px;
+  /* flex-direction: row; */
+  /* grid-row-gap: 2px;
+  grid-column-gap: 2px; */
+  /* text-align: center; */
+  /* display: flex;
+  flex-flow: column wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around; */
+}
+
+.data span {
+  display: inline-block;
+  color: #af9a7d;
+}
+
+.MuiSvgIcon-root {
+  width: 100px;
+  height: 100px;
+}
