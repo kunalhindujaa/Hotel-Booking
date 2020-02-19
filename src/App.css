@@ -1,17 +1,13 @@
-* {
-  margin: 0px;
-}
-
-/* .header {
+.header {
   width: 100%;
   position: fixed;
   background-color: #cfcfcf;
   margin-top: -10px;
   margin-right: -10px;
-  /* justify-content: space-between; 
+  /* justify-content: space-between;  */
 }
 
-/*.header p {
+.header p {
   border: 2px solid rgb(39, 36, 33);
   display: inline-block;
   padding: 6px 20px;
@@ -31,22 +27,15 @@
   text-align: right;
   color: rgb(110, 22, 22);
 }
- */
-img {
-  width: 100%;
-  /* margin: 5px; */
-  height: 550px;
-  margin-bottom: 8px;
-  margin-top: 90px;
-}
 
-/* .container {
+.logo {
   position: relative;
   text-align: center;
   color: black;
+  z-index: -1;
 }
 
-.center {
+.centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -61,4 +50,4 @@ img {
 
 hr {
   border: 2px solid #000000;
-} */
+}

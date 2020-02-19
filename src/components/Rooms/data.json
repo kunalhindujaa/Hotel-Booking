@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Single Deluxe",
+    "info": [
+      {
+        "price": "Rs. 1000",
+        "size": "500 SQFT",
+        "capacity": "3 People",
+        "tag": "No Pets Allowed",
+        "breakfast": "Included"
+      }
+    ],
+    "extras": [
+      {
+        "tag1": "Internet available",
+        "tag2": "Complimentary refreshments",
+        "tag3": "Soft oversized bath towels",
+        "tag4": "Swimming pool facility"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Family Deluxe",
+    "info": [
+      {
+        "price": "Rs. 5000",
+        "size": "700 SQFT",
+        "capacity": "6 People",
+        "tag": "Pets Allowed",
+        "breakfast": "Included"
+      }
+    ],
+    "extras": [
+      {
+        "tag1": "Internet available",
+        "tag2": "Complimentary refreshments",
+        "tag3": "Soft oversized bath towels",
+        "tag4": "Swimming pool facility"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Basic",
+    "info": [
+      {
+        "price": "Rs. 1000",
+        "size": "500 SQFT",
+        "capacity": "3 People",
+        "tag": "No Pets Allowed",
+        "breakfast": "Included"
+      }
+    ],
+    "extras": [
+      {
+        "tag1": "Internet available",
+        "tag2": "Complimentary refreshments",
+        "tag3": "Soft oversized bath towels",
+        "tag4": "Swimming pool facility"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Family Basic",
+    "info": [
+      {
+        "price": "Rs. 1000",
+        "size": "500 SQFT",
+        "capacity": "3 People",
+        "tag": "No Pets Allowed",
+        "breakfast": "Included"
+      }
+    ],
+    "extras": [
+      {
+        "tag1": "Internet available",
+        "tag2": "Complimentary refreshments",
+        "tag3": "Soft oversized bath towels",
+        "tag4": "Swimming pool facility"
+      }
+    ]
+  }
+]

@@ -18,15 +18,15 @@ class Service extends Component {
       },
       {
         id: 2,
-        icon: <AirportShuttleIcon />,
-        title: "Free Pick and Drop",
+        icon: <LocalParkingIcon />,
+        title: "Ample parking Space ",
         content:
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero"
       },
       {
         id: 3,
-        icon: <LocalParkingIcon />,
-        title: "Ample parking Space ",
+        icon: <AirportShuttleIcon />,
+        title: "Free Pick and Drop",
         content:
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero"
       },
@@ -49,7 +49,7 @@ class Service extends Component {
         <div className="data">
           {this.state.serviceData.map(data => {
             return (
-              <div>
+              <div key={data.id}>
                 <article key={data.id}>
                   <span>{data.icon}</span>
                   <h4> {data.title} </h4>
