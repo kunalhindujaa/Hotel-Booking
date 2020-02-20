@@ -6,14 +6,15 @@ import image4 from "../../images/room-1.jpeg";
 import image8 from "../../images/room-8.jpeg";
 import "./Rooms.css";
 import "../../App.css";
+import Room from "./Room";
 
 class Rooms extends Component {
   state = {
     images: [
-      { img: image1, name: "Single Deluxe" },
-      { img: image2, name: "Family Deluxe" },
-      { img: image3, name: "Basic" },
-      { img: image4, name: "Family Basic" }
+      { img: image1, name: "Single Deluxe", price: "100" },
+      { img: image2, name: "Family Deluxe", price: "200" },
+      { img: image3, name: "Basic", price: "300" },
+      { img: image4, name: "Family Basic", price: "400" }
     ]
   };
 
@@ -29,15 +30,16 @@ class Rooms extends Component {
         <div>
           <div className="logo">
             <img src={image8} alt="Images" />
-            <div class="centered">
+            <div className="centered">
               Our Rooms
               <hr />
             </div>
           </div>
-          {this.state.images.map(item => (
+          {this.state.images.map((item, index) => (
             <div className="rooms">
-              <img src={item.img} alt="Images" />
-              <p>{item.name}</p>
+              {/* <img src={item.img} alt="Images" /> */}
+              <Room key={index} room={item} />
+              {/* <p>{item.name}</p> */}
             </div>
           ))}
         </div>
